@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<config>
+
+	<modules>
+		<Ksv_Informations>
+			<version>0.1.0</version>
+		</Ksv_Informations>
+	</modules>
+	
+	 <global>
+	 	<blocks>
+    		<informations>
+				<class>Ksv_Setup_Block</class>
+    		</informations>
+    	</blocks>
+    	<resources>
+    	    <informations_setup>
+    	        <setup>
+    	            <module>Ksv_Informations</module>
+				  <class>Mage_Eav_Model_Entity_Setup</class>
+				</setup>
+				<connection>
+				  <use>default_setup</use>
+				</connection>
+    	    </informations_setup>
+    	</resources>
+     </global>
+     
+     <frontend>
+        <layout>
+            <updates>
+                <informations>
+                    <file>informations.xml</file>
+                </informations>
+            </updates>
+        </layout>
+    </frontend>
+    
+    <adminhtml>
+         <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <ksv_informations>
+                                            <title>KSV Informations</title>
+                                        </ksv_informations>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                   </children>
+               </admin>
+           </resources>
+        </acl>
+    </adminhtml>    		   
+</config>

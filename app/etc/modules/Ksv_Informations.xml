@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ksv_Informations>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Ksv_Informations>
+    </modules>
+</config>

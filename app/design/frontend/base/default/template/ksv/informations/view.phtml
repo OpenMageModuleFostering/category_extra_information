@@ -1,0 +1,7 @@
+<?php if (Mage::getStoreConfig('ksv_informations/global/enabled')): ?>
+	<?php
+		$_helper    = $this->helper('catalog/output');
+		$_category  = $this->getCurrentCategory();
+		echo $_helper->categoryAttribute($_category, $_category->informations, 'informations') 
+	?>
+<?php endif; ?>
