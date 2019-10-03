@@ -1,17 +1,5 @@
 {
-    "name": "OpenMageModuleFostering/Category_Extra_Information",
-    "type": "magento-module",
-    "license": "GPL",
-    "homepage": "",
-    "description": "This extension allow to add add an extra category information at the bottom of your category.
-",
-    "authors": [
-    {
-        "name": "ksvcorporation",
-        "email": "ksvcorporation@gmail.com"
-    }
-],
-    "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+    "keywords": [
+        "openmage-module"
+    ]
 }
